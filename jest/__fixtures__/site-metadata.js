@@ -28,12 +28,9 @@ module.exports = {
         photo: '/test.jpg',
         bio: 'Test bio',
         contacts: {
-          email: '#',
-          telegram: '#',
-          twitter: '#',
-          github: '#',
-          rss: '#',
-          vkontakte: '#'
+          twitter: 'saiicharan',
+          github: 'saiicharan',
+          linkedin: '/importsaicharan'
         }
       }
     }
