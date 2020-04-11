@@ -108,7 +108,7 @@ module.exports = {
             options: {
               strict: 'ignore'
             }
-          },
+          },          
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -202,6 +202,22 @@ module.exports = {
         }
       }
     },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-embed-youtube",
+          options: {
+            width: 800,
+            height: 400
+          }
+        }
+        ]
+      }
+    },
+    "gatsby-remark-embed-youtube",
+    "gatsby-remark-responsive-iframe",    
     'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs',
   ]
